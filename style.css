@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .box {
+        background-color: blue;
+
+    }
+}
